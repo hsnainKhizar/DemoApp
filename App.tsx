@@ -39,6 +39,7 @@ function App(): React.JSX.Element {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
+      {/* new push request */}
       <NavigationContainer>
         <AuthStack />
       </NavigationContainer>
